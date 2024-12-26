@@ -68,4 +68,4 @@ add_executable(MPSU main.cpp
 )
 
 target_link_libraries(MPSU PUBLIC ntl gmp OpenSSL::SSL OpenSSL::Crypto ${Boost_LIBRARIES} ${RELIC_LIB} libcryptoTools.a OpenMP::OpenMP_CXX ${FMT_LIBRARY} ${MIRACL_LIBRARY} pthread oc::libOTe librelic_s.a  libencrypto_utils.a libaby.a)
-target_include_directories(MPSU PUBLIC ${CMAKE_SOURCE_DIR}/BETORG/EZPC/SCI/src)
+target_include_directories(MPSU PUBLIC ${CMAKE_SOURCE_DIR}/EZPC/SCI/src)
