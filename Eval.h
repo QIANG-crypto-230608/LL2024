@@ -1,6 +1,3 @@
-//
-// Created by QIANG LIU on 12/3/24.
-//
 
 #ifndef EVAL_H
 #define EVAL_H
