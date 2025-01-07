@@ -4,7 +4,6 @@ project(MPSU LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 
 
-# 使用 find_package 查找 OpenSSL
 find_package(OpenSSL REQUIRED)
 find_package(Boost REQUIRED COMPONENTS system thread)
 find_package(cryptoTools REQUIRED)
